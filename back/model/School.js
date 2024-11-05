@@ -18,9 +18,9 @@ School.init({
         allowNull:false
     },
     passed:{
-        type:DataTypes.STRING, // Изменено с ARRAY на STRING
+        type:DataTypes.STRING, 
         allowNull:false,
-        defaultValue: JSON.stringify([]) // Используем JSON-строку как значение по умолчанию
+        defaultValue: JSON.stringify([]) 
     },
     passedCount:{
         type:DataTypes.INTEGER,
